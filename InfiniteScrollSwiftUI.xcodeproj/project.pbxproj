@@ -55,10 +55,9 @@
 		BC5CECF52B926E7C00D6BF6D /* InfiniteScrollSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				BC5CED042B926EAF00D6BF6D /* Model */,
 				BC5CECF62B926E7C00D6BF6D /* InfiniteScrollSwiftUIApp.swift */,
-				BC5CED092B9270BF00D6BF6D /* Home.swift */,
-				BC5CED072B926F7C00D6BF6D /* LoopingScrollView.swift */,
+				BC5CED0B2B927BC100D6BF6D /* Views */,
+				BC5CED042B926EAF00D6BF6D /* Model */,
 				BC5CECFA2B926E7D00D6BF6D /* Assets.xcassets */,
 				BC5CECFC2B926E7D00D6BF6D /* Preview Content */,
 			);
@@ -79,6 +78,15 @@
 				BC5CED052B926EBD00D6BF6D /* Item.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		BC5CED0B2B927BC100D6BF6D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BC5CED092B9270BF00D6BF6D /* Home.swift */,
+				BC5CED072B926F7C00D6BF6D /* LoopingScrollView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
