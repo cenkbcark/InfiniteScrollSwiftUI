@@ -5,4 +5,9 @@
 //  Created by Cenk Bahadır Çark on 1.03.2024.
 //
 
-import Foundation
+import SwiftUI
+
+struct Item: Identifiable {
+    var id: UUID = .init()
+    var color: Color
+}
